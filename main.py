@@ -13,7 +13,7 @@ Here the dataframe for your visualisations
 
 """)
 
-df = pd.read_csv('data\supermarket.csv')
+df = pd.read_csv('data/supermarket.csv')
 
 st.dataframe(df)
 
